@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Wpp_I_Robot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Wpp_I_Robot_jar</output-path>
+    <root id="archive" name="Wpp_I_Robot.jar">
+      <element id="module-output" name="Wpp_I_Robot" />
+    </root>
+  </artifact>
+</component>
