@@ -39,8 +39,8 @@ public class Main {
                 task.run();
             }
             System.out.println("digite \"abort\" para abortar");
-            if(task.flag)resp = "abort";
             resp = input.nextLine();
+            if(task.flag)resp = "abort";
         }
     }
 

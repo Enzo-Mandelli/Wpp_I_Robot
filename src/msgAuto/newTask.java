@@ -27,7 +27,9 @@ public class newTask implements Runnable {
                         break;
                     }
                 }else{
-                    wait(30000);
+                    synchronized (this) {      // ou o objeto que você tá esperando
+                        this.wait(30000);           // agora funciona
+                    }
                 }
             }
         } catch (InterruptedException e) {
